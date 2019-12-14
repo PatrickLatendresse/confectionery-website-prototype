@@ -14,11 +14,12 @@ html {
   text-size-adjust: 100%;
 }
 
-*, *::before, *::after{
+*, *::before, *::after {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
 }
+
 h1 {
   text-align: center;
   font-family: Calistoga, georgia;
@@ -26,6 +27,7 @@ h1 {
   color: #fff97c;
   background-color: #f9ccff;
 }
+
 img {
   max-width: 100%;
 }
@@ -33,30 +35,36 @@ img {
   width: 80%;
   margin: 0 auto;
 }
+
 header {
   background: #f4a5ff;
   width: 100%;
   float: left;
 }
+
 .logo {
   width: 60px;
   float: left;
   padding: 10px 0;
 }
+
 header nav {
   float: right;
 }
+
 nav ul li {
   list-style: none;
   float: left;
 }
+
 nav ul li a {
   padding: 33px 15px;
   color: #fff;
   text-decoration: none;
   display: block;
 }
-nav ul li a:hover{
+
+nav ul li a:hover {
   color: black;
   background-color: #fff97c;
 }
