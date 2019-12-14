@@ -15,9 +15,9 @@ html {
 }
 
 *, *::before, *::after {
-    margin: 0;
-    padding: 0;
-    box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
 }
 
 h1 {
@@ -31,6 +31,7 @@ h1 {
 img {
   max-width: 100%;
 }
+
 .banner {
   width: 80%;
   margin: 0 auto;
