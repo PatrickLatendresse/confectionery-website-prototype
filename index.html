@@ -6,83 +6,84 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/main.css" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
-  <style>
-  @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}.snowflake:nth-of-type(10){left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s}.snowflake:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}
-  </style>
+
 </head>
 <body>
 
-  <div class="header">
-    <a href="#"><img src="images/nav-icon-close.svg" alt="Logo" class="logo">CompanyLogo</a>
-    <h1>Beau's Bonbons</h1>
-    <div class="header-right">
-      <a class="active" href="#home">Home</a>
-      <a href="#contact">Contact</a>
-      <a href="#about">About</a>
-    </div>
-  </div>
+  <main>
+    <section class="title">
+      <h1>Beau's BonBons</h1>
+    </section>
 
-  <div class="snowflakes" aria-hidden="true">
-    <div class="snowflake">
-    🍫
-    </div>
-    <div class="snowflake">
-    🍬
-    </div>
-    <div class="snowflake">
-    🍫
-    </div>
-    <div class="snowflake">
-    🍬
-    </div>
-    <div class="snowflake">
-    🍩
-    </div>
-    <div class="snowflake">
-    🍭
-    </div>
-    <div class="snowflake">
-      🧁
-    </div>
-    <div class="snowflake">
-      🍭
-    </div>
-    <div class="snowflake">
-      🍫
-    </div>
-    <div class="snowflake">
-      🍭
-    </div>
-    <div class="snowflake">
-      🧁
-    </div>
-    <div class="snowflake">
-      🍩
-    </div>
-  </div>
+    <header>
+      <div class="banner">
+        <a href="#" class="logo"><img src="images/placeholder-1by1.svg" alt="logo"></a>
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
-  <div class="row">
-    <div class="column">
-      <a href="#"><img src="images/placeholder-1by1.svg" alt="Placeholder" class="cardimage"></a>
-      <div class="card">Stores</div>
-    </div>
-    <div class="column">
-      <a href="#"><img src="images/placeholder-1by1.svg" alt="Placeholder" class="cardimage"></a>
-      <div class="card">New Candy</div>
-    </div>
-    <div class="column">
-      <a href="#"><img src="images/placeholder-1by1.svg" alt="Placeholder" class="cardimage"></a>
-      <div class="card">..</div>
-    </div>
-    <div class="column">
-      <a href="#"><img src="images/placeholder-1by1.svg" alt="Placeholder" class="cardimage"></a>
-      <div class="card">..</div>
-    </div>
-  </div>
+    <div class="cardfull">
+      <section class="card">
+        <nav>
+          <a href="#" class="cardimage"><img src="images/placeholder-1by1.svg" alt="logo"></a>
+          <p>We’re are always keeping up to date with the latest trends in confectionery delights and happenings.</p>
 
- <footer>
+          <a class="btn btn-primary btn-small" href="#">Learn More</a>
+        </nav>
+      </section>
+    </div>
 
- </footer>
+    <div class="cardfull">
+      <section class="card">
+        <nav>
+          <a href="#" class="cardimage"><img src="images/placeholder-1by1.svg" alt="logo"></a>
+          <p>If you’re looking for the best candy store in Canada, or the best online source to order candy internationally, Beau's Bonbons is the perfect online destination for all your candy needs.</p>
+
+          <a class="btn btn-primary btn-small" href="#">Learn More</a>
+        </nav>
+      </section>
+    </div>
+
+    <div class="cardfull">
+      <section class="card">
+        <nav>
+          <a href="#" class="cardimage"><img src="images/placeholder-1by1.svg" alt="logo"></a>
+          <p>We’re here to bring you all of the best candy in one place. With hundreds of choices, you'll never have to settle.</p>
+
+          <a class="btn btn-primary btn-small" href="#">Learn More</a>
+        </nav>
+      </section>
+    </div>
+
+    <div class="cardfull">
+      <section class="card">
+        <nav>
+          <a href="#" class="cardimage"><img src="images/placeholder-1by1.svg" alt="logo"></a>
+          <p>We’ve declared a double major in candy and fun here at Candy Funhouse, but that’s not where our skills end!</p>
+
+          <a class="btn btn-primary btn-small" href="#">Learn More</a>
+        </nav>
+      </section>
+    </div>
+
+    <section>
+      <div class="about-us">
+        <h2>About us</h2>
+        <p>Our goal is to add a touch of sweetness to our customers’ lives. We bring you a huge variety of quality candy as well as the best service you’ve ever seen in a candy experience. Our team of friendly customer service staff are always positive and uplifting, showcasing that sweet times are what Candy Funhouse is all about. Sweet times live here! We aren’t your ordinary, average candy store and we aren’t just bulk candy distributors either. We’re creative minds who collaborate in the sweet name of candy! We’re the candy experts (no, really—we are), sweet treat fanatics, skilled fun-gineers, and candy connoisseurs. Our goal is to make everyone’s life a little bit sweeter. We seek out and select the very best, most fresh candy variety you can imagine.</p>
+      </div>
+    </section>
+
+    <footer>
+      Beau's Bonbons
+    </footer>
+
+  </main>
 
 </body>
 </html>
